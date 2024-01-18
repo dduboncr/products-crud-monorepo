@@ -31,15 +31,17 @@ cd nestjs-app
 pnpx prisma generate
 ```
 
-## Step 3: Run the Apps bash Copy code
+## Step 3: Run the App
 
 # Start both Next.js and Nest.js apps concurrently
+
+- Run this command on the root of the folder
 
 ```sh
 pnpm dev
 ```
 
-# Additional Commands Run Only Next.js App bash Copy code
+# Additional Commands Run Only Next.js App
 
 # Navigate to the Next.js app
 
@@ -53,7 +55,7 @@ cd apps/web
 pnpm dev
 ```
 
-# Run Only Nest.js App bash Copy code
+# Run Only Nest.js App
 
 ## Navigate to the Nest.js app
 
